@@ -1,0 +1,19 @@
+/* -------- MAIN CONTAINER OF TASKS -------- */
+.Main-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #131213;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Responsive layout */
+@media (max-width: 900px) {
+  .Main-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    padding: 30px 18px;
+  }
+}
